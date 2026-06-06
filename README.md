@@ -3,7 +3,7 @@
 Upload any CSV or Excel file and ask questions in plain English. Get instant answers and interactive charts — no coding required.
 
 ## Live Demo
-👉 [Try it on Streamlit Cloud](#)
+👉 [[Try it on Streamlit Cloud](#)](https://chatwithcsv-cqkhjdmfxnh36bqnsmkqjt.streamlit.app/)
 
 ## Features
 - Upload CSV or Excel files
