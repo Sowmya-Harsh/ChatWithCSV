@@ -3,7 +3,7 @@
 Upload any CSV or Excel file and ask questions in plain English. Get instant answers and interactive charts — no coding required.
 
 ## Live Demo
-👉 [Try it on Streamlit Cloud](#) *(add your link after deployment)*
+👉 [Try it on Streamlit Cloud](#)
 
 ## Features
 - Upload CSV or Excel files
@@ -11,11 +11,11 @@ Upload any CSV or Excel file and ask questions in plain English. Get instant ans
 - Auto-generates Plotly charts (bar, line, pie, scatter, histogram)
 - Understands follow-up questions with chat history
 - Data quality checks (missing values, column types, stats)
-- Works with any dataset — sales, finance, health, HR, and more
+- Works with any dataset - sales, finance, health, HR, and more
 
 ## Tech Stack
 - **Frontend:** Streamlit
-- **LLM:** Groq (LLaMA 3.3 70B) — free and fast
+- **LLM:** Groq (LLaMA 3.3 70B) - free and fast
 - **Charts:** Plotly Express
 - **Data:** Pandas
 
@@ -69,9 +69,3 @@ chat-with-csv/
 ├── .env.example        # Environment variable template
 └── README.md           # This file
 ```
-
-## Author
-**Sowmya Janmahanthi**
-- GitHub: [Sowmya-Harsh](https://github.com/Sowmya-Harsh)
-- LinkedIn: [sowmyajanmahanthi](https://linkedin.com/in/sowmyajanmahanthi)
-- Hugging Face: [sowmya4547](https://huggingface.co/sowmya4547)
