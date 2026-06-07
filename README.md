@@ -19,6 +19,14 @@ Upload any CSV or Excel file and ask questions in plain English. Get instant ans
 - **Charts:** Plotly Express
 - **Data:** Pandas
 
+## How it works:
+
+- Pandas reads uploaded CSV/Excel → generates a structured data summary (shape, dtypes, stats, sample rows)
+- Summary sent as context to LLaMA 3.3 via Groq — LLM never sees raw data, only the summary (efficient and private)
+- Chart intent detected from keywords in user question (bar, line, pie, scatter, histogram)
+- If chart requested → LLM returns a JSON config → Plotly renders it dynamically
+- Full conversation history maintained for follow-up questions
+
 ## Run Locally
 
 ### 1. Clone the repo
